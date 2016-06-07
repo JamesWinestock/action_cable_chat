@@ -4,6 +4,10 @@
     <%= form.email_field :email %>
   </div>
   <div>
+  <%= form.label :username %>
+  <%= form.email_field :username, require: true %>
+  </div>
+  <div>
     <%= form.label :password %>
     <%= form.password_field :password %>
   </div>
